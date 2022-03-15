@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "624523542239",
+    "project_id": "home-rent-billing",
+    "storage_bucket": "home-rent-billing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624523542239:android:be0209c2a74964c425b36a",
+        "android_client_info": {
+          "package_name": "com.homerents.home_rent_billing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624523542239-7q3bdpfpgpc433umnfra84qldu000o56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8FW3icXkxdWep9o9r0lFa-6nCrXnu0qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624523542239-7q3bdpfpgpc433umnfra84qldu000o56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

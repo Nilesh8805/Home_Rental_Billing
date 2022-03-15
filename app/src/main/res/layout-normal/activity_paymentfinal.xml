@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Paymentfinal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rffffback"
+        tools:context=".AddreadingFinal"
+        tools:layout_editor_absoluteX="-28dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:text="Want to Edit last Value"
+            android:textColor="#FAF7F7"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="45dp"
+            android:layout_height="43dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        <TextView
+            android:id="@+id/ptextView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="132dp"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ptextView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:text="Add Payment"
+            android:textColor="#8BF81F"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ptextView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="192dp"
+            android:text="TextView"
+            android:textColor="#E87EFA"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/peditTextTextPersonName2"
+            android:layout_width="358dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="43dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="Enter new Payment Amount"
+            android:inputType="number|numberDecimal"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/pbutton2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/peditTextTextPersonName3"
+            android:layout_width="176dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="68dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="Passcode"
+            android:inputType="number"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/peditTextTextPersonName2" />
+
+        <Button
+            android:id="@+id/pbutton2"
+            android:layout_width="114dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="70dp"
+            android:background="#F10606"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="Submit"
+            app:backgroundTint="#8BC34A"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/peditTextTextPersonName2" />
+
+        <TextView
+            android:id="@+id/ptextViewlastmonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Enter Your Amount here"
+            android:textColor="#FA7A7A"
+            app:layout_constraintBottom_toTopOf="@+id/peditTextTextPersonName2"
+            app:layout_constraintStart_toStartOf="@+id/peditTextTextPersonName2" />
+
+        <TextView
+            android:id="@+id/ptextView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Enter Passcode "
+            android:textColor="#6ABBFB"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="@+id/peditTextTextPersonName3"
+            app:layout_constraintTop_toBottomOf="@+id/peditTextTextPersonName3" />
+
+        <TextView
+            android:id="@+id/ptextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="256dp"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ptextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="296dp"
+            android:textColor="#87F38B"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ptextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="324dp"
+            android:textColor="#87F38B"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

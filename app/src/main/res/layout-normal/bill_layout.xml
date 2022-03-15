@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/vdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="16dp"
+        android:text="Date"
+        android:textColor="#2196F3"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vnewreading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="46dp"
+        android:text="TextView"
+        android:textColor="#EEFF01"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Paid 2"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/textView35"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/vec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="TextView"
+        android:textColor="#FFA201"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/vrate"
+        app:layout_constraintTop_toBottomOf="@+id/vrate" />
+
+    <TextView
+        android:id="@+id/vunitsdiff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#EEFF01"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/voldreading"
+        app:layout_constraintTop_toBottomOf="@+id/voldreading" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Clr Bal."
+        android:textColor="#B8E5FA"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:text="New"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/voldreading"
+        app:layout_constraintStart_toStartOf="@+id/vdate" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Units"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electric"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Old"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rent"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/textView36"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/vpd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:text="TextView"
+        android:textColor="#C8FF00"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vunpaid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#F7FF00"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/vrent"
+        app:layout_constraintTop_toBottomOf="@+id/vrent" />
+
+    <TextView
+        android:id="@+id/vpd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="TextView"
+        android:textColor="#C8FF00"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/vpd1"
+        app:layout_constraintTop_toBottomOf="@+id/vpd1" />
+
+    <TextView
+        android:id="@+id/vrent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#F7FF00"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/vpd2"
+        app:layout_constraintTop_toBottomOf="@+id/vpd2" />
+
+    <TextView
+        android:id="@+id/vgrandtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="TextView"
+        android:textColor="#08FA00"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="@+id/vunpaid"
+        app:layout_constraintTop_toBottomOf="@+id/vunpaid" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="210dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="46dp"
+        android:text="Paid 1"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#EEFF01"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/vunitsdiff"
+        app:layout_constraintTop_toBottomOf="@+id/vunitsdiff" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unpaid"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <TextView
+        android:id="@+id/voldreading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="TextView"
+        android:textColor="#EEFF01"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/vnewreading"
+        app:layout_constraintTop_toBottomOf="@+id/vnewreading" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-------------------------------------------------------------------"
+        android:textColor="#F8695E"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/textView42"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
